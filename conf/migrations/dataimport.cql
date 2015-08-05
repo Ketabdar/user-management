@@ -24,3 +24,4 @@ INSERT INTO users (id, firstname, lastname, email, email_confirmed, pwd,image) V
                    'http://...' );
 
 
+
