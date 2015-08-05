@@ -1,0 +1,415 @@
+[0m[[0minfo[0m] [0mSetting up Play fork run ... (use Ctrl+D to cancel)[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/user/workspace/letsplay-master-new/}root...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.19.0-GA ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.11;0.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.8.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.7 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-utils;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.12 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.12 ...[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.12 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.11;2.3.11 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
+[0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.11.0 ...[0m
+[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.4.01 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.transaction#jta;1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.inject#guice;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving javax.inject#javax.inject;1 ...[0m
+[0m[[0minfo[0m] [0mResolving aopalliance#aopalliance;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;16.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.inject.extensions#guice-assistedinject;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.inject.extensions#guice-assistedinject;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.inject.extensions#extensions-parent;4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-server_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.10.3.Final ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.netty#netty-http-pipelining;1.1.4 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-api_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.jolbox#bonecp;0.8.0.RELEASE ...[0m
+[0m[[0minfo[0m] [0mResolving com.zaxxer#HikariCP;2.3.7 ...[0m
+[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.4.187 ...[0m
+[0m[[0minfo[0m] [0mResolving tyrex#tyrex;1.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sf.ehcache#ehcache-core;2.6.11 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-ws_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;18.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.ning#async-http-client;1.9.21 ...[0m
+[0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-core;1.2.1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.datastax.cassandra#cassandra-driver-core;2.2.0-rc2 ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-handler;4.0.27.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-buffer;4.0.27.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-common;4.0.27.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-transport;4.0.27.Final ...[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty-codec;4.0.27.Final ...[0m
+[0m[[0minfo[0m] [0mResolving com.codahale.metrics#metrics-core;3.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.12 ...[0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.novocode#junit-interface;0.11 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;2.0.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-core;0.10.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-java;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-remote-driver;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving cglib#cglib-nodep;2.1_3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.gson#gson;2.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-api;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.3.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.3.2 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-exec;1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna;3.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jna#platform;3.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit;2.15 ...[0m
+[0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.1 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpmime;4.3.3 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit-core-js;2.15 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.nekohtml#nekohtml;1.9.21 ...[0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.14 ...[0m
+[0m[[0minfo[0m] [0mResolving org.w3c.css#sac;1.3 ...[0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.15.v20140411 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.15.v20140411 ...[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.15.v20140411 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-ie-driver;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-safari-driver;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.webbitserver#webbit;0.4.14 ...[0m
+[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-support;2.44.0 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-specs2_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2-core_2.11;3.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2-matcher_2.11;3.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2-common_2.11;3.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.11;7.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.11;7.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.11;7.1.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scalaz.stream#scalaz-stream_2.11;0.7a ...[0m
+[0m[[0minfo[0m] [0mResolving org.scodec#scodec-bits_2.11;1.0.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2-junit_2.11;3.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2-mock_2.11;3.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.mockito#mockito-core;1.9.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.11 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-omnidoc_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-docs_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-doc_2.11;1.2.2 ...[0m
+[0m[[0minfo[0m] [0mResolving org.pegdown#pegdown;1.4.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-java;1.1.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-analysis;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-util;4.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#fork-run_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#fork-run-protocol_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#run-support_2.11;2.4.2 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbtrc#client-2-11;0.3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.5 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.11;0.1.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.11;0.10.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.4 ...[0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.11;3.2.10 ...[0m
+[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.11;3.2.10 ...[0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.11;0.6.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.11;0.6.0 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#io_2.11;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#control_2.11;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections_2.11;0.13.8-M3 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbtrc#actor-client-2-11;0.3.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.8 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.11;2.3.8 ...[0m
+[0m[[0minfo[0m] [0mResolving net.contentobjects.jnotify#jnotify;0.94-play-1 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[35m--- (Running the application, auto-reloading is enabled) ---[0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mp.a.l.c.ActorSystemProvider - Starting application default Akka system: application[0m
+[0m[[0minfo[0m] [0mp.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[32m(Server started, use Ctrl+D to stop and go back to the console...)[0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/user/workspace/letsplay-master-new/target/scala-2.11/classes...[0m
+[0m[[31merror[0m] [0m/home/user/workspace/letsplay-master-new/conf/routes:8: type Song is not a member of package controllers[0m
+[0m[[31merror[0m] [0mGET     /song                           controllers.Song.index[0m
+[0m[[31merror[0m] [0m/home/user/workspace/letsplay-master-new/conf/routes:8: type Song is not a member of package controllers[0m
+[0m[[31merror[0m] [0mGET     /song                           controllers.Song.index[0m
+[0m[[31merror[0m] [0m/home/user/workspace/letsplay-master-new/conf/routes:8: type Song is not a member of package controllers[0m
+[0m[[31merror[0m] [0mGET     /song                           controllers.Song.index[0m
+[0m[[31merror[0m] [0mthree errors found[0m
+[0m[[31merror[0m] [0mapplication - [0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m! @6n3egbbjh - Internal server error, for (GET) [/users] ->[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mplay.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[type Song is not a member of package controllers][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at scala.pickling.functions$.unpickle(functions.scala:11) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:191) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at sbt.protocol.BuildValue.value(Values.scala:11) ~[na:na][0m
+[0m[[0minfo[0m] [0mCompiling 11 Scala sources and 1 Java source to /home/user/workspace/letsplay-master-new/target/scala-2.11/classes...[0m
+[0m[[33mwarn[0m] [0m/home/user/workspace/letsplay-master-new/app/controllers/User.scala:9: imported `User' is permanently hidden by definition of class User in package controllers[0m
+[0m[[33mwarn[0m] [0mimport models.User[0m
+[0m[[33mwarn[0m] [0m              ^[0m
+[0m[[33mwarn[0m] [0m/home/user/workspace/letsplay-master-new/app/models/Utils.scala:15: method promise in package concurrent is deprecated: Use `Promise[T]()` instead.[0m
+[0m[[33mwarn[0m] [0m      val p = promise[T][0m
+[0m[[33mwarn[0m] [0m              ^[0m
+[0m[[33mwarn[0m] [0m/home/user/workspace/letsplay-master-new/app/models/models_user.scala:77: Reference to uninitialized value userDataReads[0m
+[0m[[33mwarn[0m] [0m  implicit val userFormat: Format[User] = Json.format[User][0m
+[0m[[33mwarn[0m] [0m                                                     ^[0m
+[0m[[33mwarn[0m] [0mthree warnings found[0m
+[0m[[0minfo[0m] [0m- play.api.libs.concurrent.ActorSystemProvider - Starting application default Akka system: application[0m
+[0m[[0minfo[0m] [0m- play.api.Play - Application started (Dev)[0m
+[0m[[0minfo[0m] [0m- application - Connected to cluster: Test Cluster[0m
+[0m[[0minfo[0m] [0m- application - Datatacenter: datacenter1; Host: /127.0.0.1; Rack: rack1[0m
+[0m[[31merror[0m] [0m- application - [0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m! @6n3ei7ah9 - Internal server error, for (GET) [/users] ->[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mplay.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[TimeoutException: Futures timed out after [300000 milliseconds]]][0m
+[0m[[0minfo[0m] [0m	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:265) ~[play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:191) ~[play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$class.logExceptionAndGetResult$1(Server.scala:50) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$$anonfun$getHandlerFor$4.apply(Server.scala:59) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$$anonfun$getHandlerFor$4.apply(Server.scala:57) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.util.Either$RightProjection.flatMap(Either.scala:522) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$class.getHandlerFor(Server.scala:57) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.NettyServer.getHandlerFor(NettyServer.scala:33) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$8.apply(PlayDefaultUpstreamHandler.scala:139) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$8.apply(PlayDefaultUpstreamHandler.scala:139) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.util.Either.fold(Either.scala:99) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler.messageReceived(PlayDefaultUpstreamHandler.scala:127) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.typesafe.netty.http.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:62) [netty-http-pipelining-1.1.4.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_51][0m
+[0m[[0minfo[0m] [0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_51][0m
+[0m[[0minfo[0m] [0m	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51][0m
+[0m[[0minfo[0m] [0mCaused by: java.util.concurrent.TimeoutException: Futures timed out after [300000 milliseconds][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:190) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Await$.result(package.scala:190) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.ForkRun$$anonfun$askForReload$1.apply(ForkRun.scala:127) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.ForkRun$$anonfun$askForReload$1.apply(ForkRun.scala:125) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m- application - Connected to cluster: Test Cluster[0m
+[0m[[0minfo[0m] [0m- application - Datatacenter: datacenter1; Host: /127.0.0.1; Rack: rack1[0m
+[0m[[31merror[0m] [0m- application - [0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m! @6n3ein5jg - Internal server error, for (GET) [/users] ->[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mplay.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[InvalidQueryException: unconfigured table songs]][0m
+[0m[[0minfo[0m] [0m	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:265) ~[play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:191) ~[play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.GlobalSettings$class.onError(GlobalSettings.scala:179) [play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.DefaultGlobal$.onError(GlobalSettings.scala:212) [play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.http.GlobalSettingsHttpErrorHandler.onServerError(HttpErrorHandler.scala:94) [play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$9$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:158) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$9$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:155) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:216) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:192) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.util.Failure.recover(Try.scala:216) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Execution$trampoline$.executeScheduled(Execution.scala:109) [play-iteratees_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:71) [play-iteratees_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:91) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.BatchingExecutor$BlockableBatch$$anonfun$run$1.apply(BatchingExecutor.scala:91) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:90) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) [akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0mCaused by: com.datastax.driver.core.exceptions.InvalidQueryException: unconfigured table songs[0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.Responses$Error.asException(Responses.java:124) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.DefaultResultSetFuture.onSet(DefaultResultSetFuture.java:120) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.RequestHandler.setFinalResult(RequestHandler.java:186) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.RequestHandler.access$2300(RequestHandler.java:45) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.setFinalResult(RequestHandler.java:754) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.onSet(RequestHandler.java:576) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.Connection$Dispatcher.channelRead0(Connection.java:994) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.datastax.driver.core.Connection$Dispatcher.channelRead0(Connection.java:916) ~[cassandra-driver-core-2.2.0-rc2.jar:na][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:339) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:324) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:254) ~[netty-handler-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:339) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:324) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:339) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:324) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:242) ~[netty-codec-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:339) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:324) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:847) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[netty-transport-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:111) ~[netty-common-4.0.27.Final.jar:4.0.27.Final][0m
+[0m[[0minfo[0m] [0m	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_51][0m
+[0m[[31merror[0m] [0m- application - [0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m! @6n3ejj7kd - Internal server error, for (GET) [/users] ->[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mplay.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[TimeoutException: Futures timed out after [300000 milliseconds]]][0m
+[0m[[0minfo[0m] [0m	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:265) ~[play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:191) ~[play_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$class.logExceptionAndGetResult$1(Server.scala:50) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$$anonfun$getHandlerFor$4.apply(Server.scala:59) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$$anonfun$getHandlerFor$4.apply(Server.scala:57) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.util.Either$RightProjection.flatMap(Either.scala:522) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.core.server.Server$class.getHandlerFor(Server.scala:57) [play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.NettyServer.getHandlerFor(NettyServer.scala:33) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$8.apply(PlayDefaultUpstreamHandler.scala:139) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$8.apply(PlayDefaultUpstreamHandler.scala:139) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.util.Either.fold(Either.scala:99) [scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.core.server.netty.PlayDefaultUpstreamHandler.messageReceived(PlayDefaultUpstreamHandler.scala:127) [play-netty-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at com.typesafe.netty.http.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:62) [netty-http-pipelining-1.1.4.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [netty-3.10.3.Final.jar:na][0m
+[0m[[0minfo[0m] [0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_51][0m
+[0m[[0minfo[0m] [0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_51][0m
+[0m[[0minfo[0m] [0m	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51][0m
+[0m[[0minfo[0m] [0mCaused by: java.util.concurrent.TimeoutException: Futures timed out after [300000 milliseconds][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:190) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.Await$.result(package.scala:190) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.ForkRun$$anonfun$askForReload$1.apply(ForkRun.scala:127) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.forkrun.ForkRun$$anonfun$askForReload$1.apply(ForkRun.scala:125) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na][0m
+[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.2.jar:2.4.2][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.7.jar:na][0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.7.jar:na][0m
