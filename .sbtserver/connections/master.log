@@ -1,52 +1,22 @@
-New log file opened at Wed Aug 05 19:12:40 CEST 2015 by 23726@user-ThinkPad-T440p
-Taking next connection to: 45342
-New client attempting to connect on port: 33818-45342
-  Address = /127.0.1.1:45342
-This client on port 33818 has uuid cc486223-7ae0-4e15-8089-d1efd2063d6b configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-cc486223-7ae0-4e15-8089-d1efd2063d6b
-Taking next connection to: 45342
+New log file opened at Thu Aug 06 09:53:01 CEST 2015 by 3209@user-ThinkPad-T440p
+Taking next connection to: 36697
+New client attempting to connect on port: 40884-36697
+  Address = /127.0.1.1:36697
+This client on port 40884 has uuid 0649b05a-c151-45f7-bb04-2f8b7462fdb3 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-0649b05a-c151-45f7-bb04-2f8b7462fdb3
+Taking next connection to: 36697
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
+Taking next connection to: 36697
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
+Taking next connection to: 36697
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
+Taking next connection to: 36697
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
+Taking next connection to: 36697
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 45342
+Taking next connection to: 36697

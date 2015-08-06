@@ -1,10 +1,8 @@
 [0m[[33mwarn[0m] [0m/home/user/workspace/letsplay-master-new/app/controllers/User.scala:9: imported `User' is permanently hidden by definition of class User in package controllers[0m
 [0m[[33mwarn[0m] [0mimport models.User[0m
 [0m[[33mwarn[0m] [0m              ^[0m
-[0m[[33mwarn[0m] [0m/home/user/workspace/letsplay-master-new/app/models/Utils.scala:15: method promise in package concurrent is deprecated: Use `Promise[T]()` instead.[0m
-[0m[[33mwarn[0m] [0m      val p = promise[T][0m
-[0m[[33mwarn[0m] [0m              ^[0m
-[0m[[33mwarn[0m] [0m/home/user/workspace/letsplay-master-new/app/models/models_user.scala:77: Reference to uninitialized value userDataReads[0m
-[0m[[33mwarn[0m] [0m  implicit val userFormat: Format[User] = Json.format[User][0m
-[0m[[33mwarn[0m] [0m                                                     ^[0m
-[0m[[33mwarn[0m] [0mthree warnings found[0m
+[0m[[31merror[0m] [0m/home/user/workspace/letsplay-master-new/app/models/models_user.scala:26: value getRows is not a member of models.SimpleClient_User[0m
+[0m[[31merror[0m] [0m    client.getRows.toScalaFuture.map { rows =>[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[31merror[0m] [0mone error found[0m

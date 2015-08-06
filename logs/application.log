@@ -1,10 +1,10 @@
-2015-08-05 19:10:00,383 [INFO] from play.api.libs.concurrent.ActorSystemProvider in play-fork-run-akka.actor.default-dispatcher-10 - Starting application default Akka system: application
-2015-08-05 19:10:00,477 [INFO] from play.core.server.NettyServer in play-fork-run-akka.actor.default-dispatcher-10 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
-2015-08-05 19:10:21,074 [ERROR] from application in New I/O worker #1 - 
+2015-08-06 09:50:29,148 [INFO] from play.api.libs.concurrent.ActorSystemProvider in play-fork-run-akka.actor.default-dispatcher-8 - Starting application default Akka system: application
+2015-08-06 09:50:29,257 [INFO] from play.core.server.NettyServer in play-fork-run-akka.actor.default-dispatcher-8 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2015-08-06 09:50:43,774 [ERROR] from application in New I/O worker #1 - 
 
-! @6n3egbbjh - Internal server error, for (GET) [/users] ->
+! @6n3j20ll4 - Internal server error, for (GET) [/user] ->
  
-play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[type Song is not a member of package controllers]
+play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[value getRows is not a member of models.SimpleClient_User]
 	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159) ~[na:na]
 	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175) ~[na:na]
 	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181) ~[na:na]
@@ -27,7 +27,6 @@ play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation erro
 	at akka.dispatch.Mailbox.run(Mailbox.scala:221) ~[akka-actor_2.11-2.3.11.jar:na]
 	at akka.dispatch.Mailbox.exec(Mailbox.scala:231) ~[akka-actor_2.11-2.3.11.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.7.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.pollAndExecAll(ForkJoinPool.java:1253) ~[scala-library-2.11.7.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1346) ~[scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.7.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.7.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.7.jar:na]

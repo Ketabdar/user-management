@@ -5,16 +5,14 @@
 #http://127.0.0.1:9000/file/products
 #http://127.0.0.1:9000/file/categories
 
-<<<<<<< HEAD
 #GET     /song                           controllers.Song.index
 #POST    /song                           controllers.Song.createSong
 #GET     /song/:id                       controllers.Song.songById(id)
 GET     /users                          controllers.User.index3
-=======
+
 GET     /song                           controllers.Cass.index
 POST    /song                           controllers.Cass.createSong
 GET     /song/:id                       controllers.Cass.songById(id)
->>>>>>> 0b16fa47b468b387bf98a06502f8b0cc3cd7f816
 
 
 GET     /                           controllers.Application.index

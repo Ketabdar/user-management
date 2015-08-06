@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/user/workspace/letsplay-master-new/conf/routes
-// @DATE:Wed Aug 05 19:10:44 CEST 2015
+// @DATE:Thu Aug 06 09:41:28 CEST 2015
 
 
 package router {
