@@ -34,30 +34,20 @@ class SimpleClient_User(node: String) {
     session.execute(
       """CREATE TABLE IF NOT EXISTS gee.users (
         id uuid PRIMARY KEY,
-        firstname text,
-        lastname text,
-        email text,
-        email_confirmed text,
-        pwd text,
-        image text
+        lastname text
         );""")
   }
 
   def loadData() = {
     session.execute(
-      """INSERT INTO gee.users (id, firstname, lastname, email, email_confirmed, pwd, image)
+      """INSERT INTO gee.users (id, lastname)
       VALUES (
-          756716f7-2e54-4715-9f00-91dcbea6cf51,  }
-          'Houran',
-          'Ketabdar',
-          'houran.ketabdar@gmail.com',
-          'houran.ketabdar@gmail.com',
-          '1234',
-          'http://...')
+          756716f7-2e54-4715-9f00-91dcbea6cf51,
+          'Ketabdar')
           ;""");
   }
 
-  /*def querySchema() = {
+  def querySchema() = {
     val results = session.execute("SELECT * FROM gee.playlists WHERE id = 2cc9ccb7-6221-4ccb-8387-f22b6a1b354d;")
     println(String.format("%-30s\t%-20s\t%-20s\n%s", "title", "album", "artist",
       "-------------------------------+-----------------------+--------------------"))
@@ -79,7 +69,7 @@ class SimpleClient_User(node: String) {
     //val query = QueryBuilder.select().all().from("gee", "songs")
     val query = s"select * from gee.songs allow filtering"
     session.executeAsync(query)
-  }*/
+  }
 
   def close() {
     session.close
