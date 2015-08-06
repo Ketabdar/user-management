@@ -10,6 +10,10 @@
 #GET     /song/:id                       controllers.Song.songById(id)
 GET     /users                          controllers.User.index3
 
+GET     /song                           controllers.Cass.index
+POST    /song                           controllers.Cass.createSong
+GET     /song/:id                       controllers.Cass.songById(id)
+
 
 GET     /                           controllers.Application.index
 GET     /v1/*filename               controllers.Application.staticUrl(filename: String)

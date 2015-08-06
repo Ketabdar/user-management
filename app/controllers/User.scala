@@ -6,7 +6,7 @@ import models.SimpleClient_User
 import models.UsersRepository
 import play.api.libs.json.Json
 import com.datastax.driver.core.utils.UUIDs
-import models.User
+//import models.User
 import play.api.libs.json.JsError
 import scala.concurrent.Future
 import java.util.UUID

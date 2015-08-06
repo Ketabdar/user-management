@@ -1,7 +1,6 @@
 package models
 
 import java.util.UUID
-import com.sun.rowset.internal.Row
 
 import scala.collection.convert.WrapAsScala
 import scala.concurrent.ExecutionContext

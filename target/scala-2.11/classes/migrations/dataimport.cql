@@ -7,21 +7,11 @@ CREATE KEYSPACE gee WITH replication = {'class': 'SimpleStrategy', 'replication_
 use gee;
 
 CREATE TABLE users (id uuid PRIMARY KEY,
-                    firstname text,
-                    lastname text,
-                    email text,
-                    email_confirmed text,
-                    pwd text,
-                    image text ) ;
+                    lastname text) ;
 
-INSERT INTO users (id, firstname, lastname, email, email_confirmed, pwd,image) VALUES
+INSERT INTO users (id, lastname) VALUES
                   (756716f7-2e54-4715-9f00-91dcbea6cf51,
-                   'Houran',
-                   'Ketabdar',
-                   'houran.ketabdar@gmail.com',
-                   'houran.ketabdar@gmail.com',
-                   '1234',
-                   'http://...' );
+                   'Ketabdar');
 
 CREATE TABLE songs (id uuid PRIMARY KEY,
                     title text,

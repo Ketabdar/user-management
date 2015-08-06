@@ -5,6 +5,8 @@ import play.api.mvc._
 
 import java.io._
 import java.io
+import play.api.mvc.Action
+import play.api.mvc.Controller
 import org.apache.http.HttpEntity
 import org.apache.http.HttpResponse
 import org.apache.http.client.ClientProtocolException
